@@ -3,7 +3,6 @@ name: "[auto update backend json] create PR"
 on:
   push:
     branches:
-      - 'public-pages'
       - 'feature/*'
   schedule: # UTC で記載
     - cron: '59 14 * * *'
@@ -19,7 +18,8 @@ jobs:
       - name  : "[STEP] Checkout Repository"
         uses  : actions/checkout@v3
         with:
-          ref: public-pages
+#          ref: public-pages
+          ref: 'feature/NANOMBA-4678'
 
       - name  : "[STEP] Setup Env"
         env   :
