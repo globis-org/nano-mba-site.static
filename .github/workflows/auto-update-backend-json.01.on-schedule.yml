@@ -1,0 +1,68 @@
+name: "[auto update backend json] create PR"
+
+on:
+  push:
+    branches:
+      - 'public-pages'
+      - 'feature/*'
+  schedule: # UTC で記載
+    - cron: '59 14 * * *'
+  workflow_dispatch:
+
+jobs:
+  main:
+    name    : run main
+    runs-on : ubuntu-latest
+    timeout-minutes : 120
+    steps   :
+
+      - name  : "[STEP] Checkout Repository"
+        uses  : actions/checkout@v3
+        with:
+          ref: public-pages
+
+      - name  : "[STEP] Setup Env"
+        env   :
+          TZ    : 'Asia/Tokyo'
+        run   : |
+          echo "CURRENT_DATETIME=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
+
+      - name  : "[STEP] Setup Python"
+        uses  : actions/setup-python@v4
+        with  :
+          python-version : '3.11.3'
+          architecture   : 'x64'
+
+      - name  : "[STEP] Run Python"
+        run   : |
+          cd scripts/python
+          python -V
+          pip install -r requirements.txt
+          python -B src/main.py
+
+      - name  : "[STEP] Check Changes"
+        id    : step-check-changes
+        run   : |
+          git add -N .
+          git_diff_count=`git diff --name-only | wc -l`
+          echo "git_diff_count: ${git_diff_count}"
+          echo "::set-output name=git-diff-count::${git_diff_count}"
+
+      - name  : "[STEP] Create New Branch & PR"
+        if    : steps.step-check-changes.outputs.git-diff-count > 0
+        env   :
+          GH_TOKEN : ${{ secrets.GITHUB_TOKEN }}
+        run   : |
+          release_branch="actions/on-schedule/auto-update-backend-json_${{ env.CURRENT_DATETIME }}"
+          git switch -c      ${release_branch}
+          git push -u origin ${release_branch}
+
+          git add .
+          git commit -m "auto: [Github Actions] on-schedule.auto-update-backend-json"
+          git push
+
+          gh pr create \
+            --base public-pages \
+            --head ${release_branch} \
+            --title "auto: [Github Actions] on-schedule.auto-update-backend-json ${{ env.CURRENT_DATETIME }}" \
+            --body "Github Actions にて自動生成されました。"
