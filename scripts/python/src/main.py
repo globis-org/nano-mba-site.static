@@ -7,14 +7,15 @@ import json
 from const import \
     PATH_DIR_SRC_ROOT, \
     PATH_FILE_ENDPOINT_SCHEDULE_JSON, \
-    EXTERNAL_API_BACKEND_SCHEDULE
+    EXTERNAL_API_BACKEND_SCHEDULE, \
+    EXTERNAL_API_BACKEND_SECRET
 
 
 def main():
     timestamp('[start]')
     os.chdir(PATH_DIR_SRC_ROOT)
 
-    response = requests.get(EXTERNAL_API_BACKEND_SCHEDULE)
+    response = requests.get(EXTERNAL_API_BACKEND_SCHEDULE, headers={'X-API-KEY': EXTERNAL_API_BACKEND_SECRET})
     response.raise_for_status()
     response_json = response.json()
     print(response_json)

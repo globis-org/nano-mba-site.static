@@ -8,3 +8,4 @@ PATH_FILE_ENDPOINT_SCHEDULE_JSON = PATH_DIR_PUBLIC + '/data/courses/schedule.gen
 
 # EXTERNAL_API_BACKEND_SCHEDULE = 'http://localhost:23000/api/nano-site/courses/accepting'  # for local test
 EXTERNAL_API_BACKEND_SCHEDULE = 'https://api.nano.globis.ac.jp/api/nano-site/courses/accepting'  # for prod / stg
+EXTERNAL_API_BACKEND_SECRET = os.environ.get("EXTERNAL_API_BACKEND_SECRET")
