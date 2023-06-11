@@ -18,7 +18,7 @@ jobs:
       - name  : "[STEP] Checkout Repository"
         uses  : actions/checkout@v3
         with:
-          ref: main # public-pages # 'feature/NANOMBA-xxxx'
+          ref: public-pages # 'feature/NANOMBA-xxxx'
 
       - name  : "[STEP] Setup Env"
         env   :
@@ -61,7 +61,7 @@ jobs:
           git push
 
           gh pr create \
-            --base main \
+            --base public-pages \
             --head ${release_branch} \
             --title "auto: [Github Actions] on-schedule.auto-update-backend-json ${{ env.CURRENT_DATETIME }}" \
             --body "Github Actions にて自動生成されました。"
