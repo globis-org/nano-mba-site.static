@@ -1,9 +1,6 @@
-name: "[auto update backend json] create PR"
+name: "[auto update backend json] create & merge PR"
 
 on:
-  # push:
-  #   branches:
-  #     - 'feature/*'
   schedule: # UTC で記載
     - cron: '59 14 * * *'
   workflow_dispatch:
@@ -18,7 +15,7 @@ jobs:
       - name  : "[STEP] Checkout Repository"
         uses  : actions/checkout@v3
         with:
-          ref: public-pages # 'feature/NANOMBA-xxxx'
+          ref: public-pages
 
       - name  : "[STEP] Setup Env"
         env   :
