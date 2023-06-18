@@ -1,0 +1,81 @@
+name: "[auto update backend json] create & merge PR"
+
+on:
+  schedule: # UTC で記載
+    - cron: '59 14 * * *'
+  workflow_dispatch:
+
+jobs:
+  main:
+    name    : run main
+    runs-on : ubuntu-latest
+    timeout-minutes : 120
+    steps   :
+
+      - name  : "[STEP] Checkout Repository"
+        uses  : actions/checkout@v3
+        with:
+          ref: public-pages
+
+      - name  : "[STEP] Setup Env"
+        env   :
+          TZ    : 'Asia/Tokyo'
+        run   : |
+          echo "CURRENT_DATETIME=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
+          echo "RELEASE_BRANCH_PREFIX=actions/on-schedule/auto-update-backend-json_" >> $GITHUB_ENV
+
+      - name  : "[STEP] Setup Python"
+        uses  : actions/setup-python@v4
+        with  :
+          python-version : '3.11.3'
+          architecture   : 'x64'
+
+      - name  : "[STEP] Run Python"
+        env:
+          EXTERNAL_API_BACKEND_SECRET: ${{ secrets.EXTERNAL_API_BACKEND_SECRET }}
+        run   : |
+          cd scripts/python
+          python -V
+          pip install -r requirements.txt
+          python -B src/main.py
+
+      - name  : "[STEP] Check Changes"
+        id    : step-check-changes
+        run   : |
+          git add -N .
+          git_diff_count=`git diff --name-only | wc -l`
+          echo "git_diff_count: ${git_diff_count}"
+          echo "::set-output name=git-diff-count::${git_diff_count}"
+
+      - name  : "[STEP] Create New Branch & PR"
+        if    : steps.step-check-changes.outputs.git-diff-count > 0
+        env   :
+          GH_TOKEN : ${{ secrets.GITHUB_TOKEN }}
+        run   : |
+          git config --global user.email "on-schedule@gh.actions"
+          git config --global user.name "on-schedule actions"
+          release_branch="${{ env.RELEASE_BRANCH_PREFIX }}${{ env.CURRENT_DATETIME }}"
+          git switch -c      ${release_branch}
+          git push -u origin ${release_branch}
+
+          git add .
+          git commit -m "auto: [Github Actions] on-schedule.auto-update-backend-json"
+          git push
+
+          gh pr create \
+            --base public-pages \
+            --head ${release_branch} \
+            --title "auto: [Github Actions] ${{ env.RELEASE_BRANCH_PREFIX }}${{ env.CURRENT_DATETIME }}" \
+            --body "Github Actions にて自動生成されました。"
+
+      - name  : "[STEP] Merge PR"
+        if    : steps.step-check-changes.outputs.git-diff-count > 0
+        env   :
+          GH_TOKEN     : ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER   : ${{ github.repository_owner }}
+          REPO_NAME    : ${{ github.event.repository.name }}
+        run   : |
+          git switch -c main
+          PR_NUMBER=$(gh pr list --head "${{ env.RELEASE_BRANCH_PREFIX }}${{ env.CURRENT_DATETIME }}" --limit 1 --json number --jq '.[0].number')
+          PR_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}/pull/${PR_NUMBER}"
+          gh pr merge ${PR_URL} --merge --delete-branch
