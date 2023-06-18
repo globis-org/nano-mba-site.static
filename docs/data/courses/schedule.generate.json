@@ -1,0 +1,382 @@
+{
+  "nac": {
+    "schedule": {
+      "year": "2023",
+      "month": "7",
+      "course": {
+        "startAt": {
+          "date": "7/24",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/3",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "9/17",
+          "week": "(日)"
+        }
+      },
+      "groupWork": {
+        "startAt": {
+          "date": "7/31",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/3",
+          "week": "(日)"
+        }
+      },
+      "integratedStudy": {
+        "startAt": {
+          "date": "8/21",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/10",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "9/17",
+          "week": "(日)"
+        }
+      },
+      "liveSession": {
+        "classes": [
+          {
+            "lecturerUserId": "884",
+            "name": "井上 智映子",
+            "lecturer": "chieko_inoue",
+            "week01": {
+              "date": "7/26",
+              "week": "(水)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "8/29",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          },
+          {
+            "lecturerUserId": "506",
+            "name": "森 暁郎",
+            "lecturer": "akio_mori",
+            "week01": {
+              "date": "7/25",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "8/29",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          }
+        ]
+      }
+    },
+    "acceptingUntil": "2023-07-02T23:59:59+09:00"
+  },
+  "nct": {
+    "schedule": {
+      "year": "2023",
+      "month": "7",
+      "course": {
+        "startAt": {
+          "date": "7/31",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/10",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "9/24",
+          "week": "(日)"
+        }
+      },
+      "groupWork": {
+        "startAt": {
+          "date": "8/7",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/10",
+          "week": "(日)"
+        }
+      },
+      "integratedStudy": {
+        "startAt": {
+          "date": "8/28",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/17",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "9/24",
+          "week": "(日)"
+        }
+      },
+      "liveSession": {
+        "classes": [
+          {
+            "lecturerUserId": "554",
+            "name": "滝 謙介",
+            "lecturer": "Kensuke_Taki",
+            "week01": {
+              "date": "8/1",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "9/5",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          },
+          {
+            "lecturerUserId": "1020",
+            "name": "堤 崇士",
+            "lecturer": "takashi_tsutsumi",
+            "week01": {
+              "date": "8/1",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "9/5",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          }
+        ]
+      }
+    },
+    "acceptingUntil": "2023-07-09T23:59:59+09:00"
+  },
+  "nlc": {
+    "schedule": {
+      "year": "2023",
+      "month": "7",
+      "course": {
+        "startAt": {
+          "date": "7/3",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "8/13",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "8/27",
+          "week": "(日)"
+        }
+      },
+      "groupWork": {
+        "startAt": {
+          "date": "7/10",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "8/13",
+          "week": "(日)"
+        }
+      },
+      "integratedStudy": {
+        "startAt": {
+          "date": "7/31",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "8/20",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "8/27",
+          "week": "(日)"
+        }
+      },
+      "liveSession": {
+        "classes": [
+          {
+            "lecturerUserId": "197",
+            "name": "中村 直太",
+            "lecturer": "Naota_Nakamura",
+            "week01": {
+              "date": "7/4",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "8/7",
+              "week": "(月)",
+              "range": "19:30 - 21:00"
+            }
+          }
+        ]
+      }
+    },
+    "acceptingUntil": "2023-06-11T23:59:59+09:00"
+  },
+  "nmk": {
+    "schedule": {
+      "year": "2023",
+      "month": "7",
+      "course": {
+        "startAt": {
+          "date": "8/7",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/17",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "10/1",
+          "week": "(日)"
+        }
+      },
+      "groupWork": {
+        "startAt": {
+          "date": "8/14",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/17",
+          "week": "(日)"
+        }
+      },
+      "integratedStudy": {
+        "startAt": {
+          "date": "9/4",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "9/24",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "10/1",
+          "week": "(日)"
+        }
+      },
+      "liveSession": {
+        "classes": [
+          {
+            "lecturerUserId": "1032",
+            "name": "渡邉 由美",
+            "lecturer": "yumi_watanabe",
+            "week01": {
+              "date": "8/7",
+              "week": "(月)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "9/12",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          },
+          {
+            "lecturerUserId": "201",
+            "name": "南 和宏",
+            "lecturer": "Kazuhiro_Minami",
+            "week01": {
+              "date": "8/7",
+              "week": "(月)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "9/12",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          }
+        ]
+      }
+    },
+    "acceptingUntil": "2023-07-16T23:59:59+09:00"
+  },
+  "nst": {
+    "schedule": {
+      "year": "2023",
+      "month": "7",
+      "course": {
+        "startAt": {
+          "date": "7/10",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "8/20",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "9/3",
+          "week": "(日)"
+        }
+      },
+      "groupWork": {
+        "startAt": {
+          "date": "7/17",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "8/20",
+          "week": "(日)"
+        }
+      },
+      "integratedStudy": {
+        "startAt": {
+          "date": "8/7",
+          "week": "(月)"
+        },
+        "endAt": {
+          "date": "8/27",
+          "week": "(日)"
+        },
+        "deadline": {
+          "date": "9/3",
+          "week": "(日)"
+        }
+      },
+      "liveSession": {
+        "classes": [
+          {
+            "lecturerUserId": "266",
+            "name": "中村 剛",
+            "lecturer": "Goh_Nakamura",
+            "week01": {
+              "date": "7/11",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "8/15",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
+          },
+          {
+            "lecturerUserId": "564",
+            "name": "柳田 佳孝",
+            "lecturer": "Yoshitaka_Yanagida",
+            "week01": {
+              "date": "7/11",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "8/16",
+              "week": "(水)",
+              "range": "19:30 - 21:00"
+            }
+          }
+        ]
+      }
+    },
+    "acceptingUntil": "2023-06-18T23:59:59+09:00"
+  }
+}
