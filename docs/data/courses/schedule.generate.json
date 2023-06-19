@@ -160,42 +160,42 @@
   "nlc": {
     "schedule": {
       "year": "2023",
-      "month": "7",
+      "month": "10",
       "course": {
         "startAt": {
-          "date": "7/3",
+          "date": "10/9",
           "week": "(月)"
         },
         "endAt": {
-          "date": "8/13",
+          "date": "11/19",
           "week": "(日)"
         },
         "deadline": {
-          "date": "8/27",
+          "date": "12/3",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "7/10",
+          "date": "10/16",
           "week": "(月)"
         },
         "endAt": {
-          "date": "8/13",
+          "date": "11/19",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "7/31",
+          "date": "11/6",
           "week": "(月)"
         },
         "endAt": {
-          "date": "8/20",
+          "date": "11/26",
           "week": "(日)"
         },
         "deadline": {
-          "date": "8/27",
+          "date": "12/3",
           "week": "(日)"
         }
       },
@@ -206,20 +206,20 @@
             "name": "中村 直太",
             "lecturer": "Naota_Nakamura",
             "week01": {
-              "date": "7/4",
+              "date": "10/10",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "8/7",
-              "week": "(月)",
+              "date": "11/14",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             }
           }
         ]
       }
     },
-    "acceptingUntil": "2023-06-11T23:59:59+09:00"
+    "acceptingUntil": "2023-09-17T23:59:59+09:00"
   },
   "nmk": {
     "schedule": {
