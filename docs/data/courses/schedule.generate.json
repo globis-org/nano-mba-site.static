@@ -303,80 +303,65 @@
   "nst": {
     "schedule": {
       "year": "2023",
-      "month": "7",
+      "month": "10",
       "course": {
         "startAt": {
-          "date": "7/10",
+          "date": "10/2",
           "week": "(月)"
         },
         "endAt": {
-          "date": "8/20",
+          "date": "11/12",
           "week": "(日)"
         },
         "deadline": {
-          "date": "9/3",
+          "date": "11/26",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "7/17",
+          "date": "10/9",
           "week": "(月)"
         },
         "endAt": {
-          "date": "8/20",
+          "date": "11/12",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "8/7",
+          "date": "10/30",
           "week": "(月)"
         },
         "endAt": {
-          "date": "8/27",
+          "date": "11/19",
           "week": "(日)"
         },
         "deadline": {
-          "date": "8/27",
+          "date": "11/19",
           "week": "(日)"
         }
       },
       "liveSession": {
         "classes": [
           {
-            "lecturerUserId": "266",
-            "name": "中村 剛",
-            "lecturer": "Goh_Nakamura",
+            "lecturerUserId": "884",
+            "name": "井上 智映子",
+            "lecturer": "chieko_inoue",
             "week01": {
-              "date": "7/11",
+              "date": "10/3",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "8/15",
+              "date": "11/7",
               "week": "(火)",
-              "range": "19:30 - 21:00"
-            }
-          },
-          {
-            "lecturerUserId": "564",
-            "name": "柳田 佳孝",
-            "lecturer": "Yoshitaka_Yanagida",
-            "week01": {
-              "date": "7/11",
-              "week": "(火)",
-              "range": "19:30 - 21:00"
-            },
-            "week06": {
-              "date": "8/16",
-              "week": "(水)",
               "range": "19:30 - 21:00"
             }
           }
         ]
       }
     },
-    "acceptingUntil": "2023-06-18T23:59:59+09:00"
+    "acceptingUntil": "2023-09-10T23:59:59+09:00"
   }
 }
