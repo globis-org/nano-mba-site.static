@@ -43,7 +43,6 @@
       },
       "liveSession": {
         "classes": [
-          null,
           {
             "lecturerUserId": "506",
             "name": "森 暁郎",
@@ -265,8 +264,7 @@
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
-          },
-          null
+          }
         ]
       }
     },
