@@ -66,42 +66,42 @@
   "nct": {
     "schedule": {
       "year": "2023",
-      "month": "7",
+      "month": "10",
       "course": {
         "startAt": {
-          "date": "7/31",
+          "date": "10/16",
           "week": "(月)"
         },
         "endAt": {
-          "date": "9/10",
+          "date": "11/26",
           "week": "(日)"
         },
         "deadline": {
-          "date": "9/24",
+          "date": "12/10",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "8/7",
+          "date": "10/23",
           "week": "(月)"
         },
         "endAt": {
-          "date": "9/10",
+          "date": "11/26",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "8/28",
+          "date": "11/13",
           "week": "(月)"
         },
         "endAt": {
-          "date": "9/17",
+          "date": "12/3",
           "week": "(日)"
         },
         "deadline": {
-          "date": "9/17",
+          "date": "12/3",
           "week": "(日)"
         }
       },
@@ -112,35 +112,20 @@
             "name": "滝 謙介",
             "lecturer": "Kensuke_Taki",
             "week01": {
-              "date": "8/1",
+              "date": "10/17",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "9/5",
-              "week": "(火)",
-              "range": "19:30 - 21:00"
-            }
-          },
-          {
-            "lecturerUserId": "1020",
-            "name": "堤 崇士",
-            "lecturer": "takashi_tsutsumi",
-            "week01": {
-              "date": "8/1",
-              "week": "(火)",
-              "range": "19:30 - 21:00"
-            },
-            "week06": {
-              "date": "9/5",
-              "week": "(火)",
+              "date": "11/22",
+              "week": "(水)",
               "range": "19:30 - 21:00"
             }
           }
         ]
       }
     },
-    "acceptingUntil": "2023-07-09T23:59:59+09:00"
+    "acceptingUntil": "2023-09-24T23:59:59+09:00"
   },
   "nlc": {
     "schedule": {
