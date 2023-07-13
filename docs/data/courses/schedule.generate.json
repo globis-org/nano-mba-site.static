@@ -121,6 +121,21 @@
               "week": "(水)",
               "range": "19:30 - 21:00"
             }
+          },
+          {
+            "lecturerUserId": "1020",
+            "name": "堤 崇士",
+            "lecturer": "takashi_tsutsumi",
+            "week01": {
+              "date": "10/18",
+              "week": "(水)",
+              "range": "19:30 - 21:00"
+            },
+            "week06": {
+              "date": "11/21",
+              "week": "(火)",
+              "range": "19:30 - 21:00"
+            }
           }
         ]
       }
