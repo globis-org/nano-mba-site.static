@@ -272,43 +272,43 @@
   },
   "nst": {
     "schedule": {
-      "year": "2023",
-      "month": "10",
+      "year": "2024",
+      "month": "1",
       "course": {
         "startAt": {
-          "date": "10/2",
+          "date": "1/15",
           "week": "(月)"
         },
         "endAt": {
-          "date": "11/12",
+          "date": "2/25",
           "week": "(日)"
         },
         "deadline": {
-          "date": "11/26",
+          "date": "3/10",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "10/9",
+          "date": "1/22",
           "week": "(月)"
         },
         "endAt": {
-          "date": "11/12",
+          "date": "2/25",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "10/30",
+          "date": "2/12",
           "week": "(月)"
         },
         "endAt": {
-          "date": "11/19",
+          "date": "3/3",
           "week": "(日)"
         },
         "deadline": {
-          "date": "11/19",
+          "date": "3/3",
           "week": "(日)"
         }
       },
@@ -319,19 +319,19 @@
             "name": "井上 智映子",
             "lecturer": "chieko_inoue",
             "week01": {
-              "date": "10/3",
-              "week": "(火)",
+              "date": "1/17",
+              "week": "(水)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "11/7",
-              "week": "(火)",
+              "date": "2/21",
+              "week": "(水)",
               "range": "19:30 - 21:00"
             }
           }
         ]
       }
     },
-    "acceptingUntil": "2023-09-17T23:59:59+09:00"
+    "acceptingUntil": "2023-12-31T23:59:59+09:00"
   }
 }
