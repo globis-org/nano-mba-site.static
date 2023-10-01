@@ -65,43 +65,43 @@
   },
   "nct": {
     "schedule": {
-      "year": "2023",
-      "month": "10",
+      "year": "2024",
+      "month": "1",
       "course": {
         "startAt": {
-          "date": "10/16",
+          "date": "1/29",
           "week": "(月)"
         },
         "endAt": {
-          "date": "11/26",
+          "date": "3/10",
           "week": "(日)"
         },
         "deadline": {
-          "date": "12/10",
+          "date": "3/24",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "10/23",
+          "date": "2/5",
           "week": "(月)"
         },
         "endAt": {
-          "date": "11/26",
+          "date": "3/10",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "11/13",
+          "date": "2/26",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/3",
+          "date": "3/17",
           "week": "(日)"
         },
         "deadline": {
-          "date": "12/3",
+          "date": "3/17",
           "week": "(日)"
         }
       },
@@ -112,27 +112,27 @@
             "name": "滝 謙介",
             "lecturer": "Kensuke_Taki",
             "week01": {
-              "date": "10/17",
+              "date": "1/30",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "11/22",
-              "week": "(水)",
+              "date": "3/5",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             }
           },
           {
-            "lecturerUserId": "1020",
-            "name": "堤 崇士",
-            "lecturer": "takashi_tsutsumi",
+            "lecturerUserId": "555",
+            "name": "岩越 祥晃",
+            "lecturer": "Yoshiaki_Iwakoshi",
             "week01": {
-              "date": "10/18",
-              "week": "(水)",
+              "date": "1/30",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "11/21",
+              "date": "3/5",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -140,7 +140,7 @@
         ]
       }
     },
-    "acceptingUntil": "2023-10-01T23:59:59+09:00"
+    "acceptingUntil": "2024-01-14T23:59:59+09:00"
   },
   "nlc": {
     "schedule": {
