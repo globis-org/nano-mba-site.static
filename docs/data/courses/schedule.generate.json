@@ -1,43 +1,43 @@
 {
   "nac": {
     "schedule": {
-      "year": "2023",
-      "month": "10",
+      "year": "2024",
+      "month": "1",
       "course": {
         "startAt": {
-          "date": "10/23",
+          "date": "1/22",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/3",
+          "date": "3/3",
           "week": "(日)"
         },
         "deadline": {
-          "date": "12/17",
+          "date": "3/17",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "10/30",
+          "date": "1/29",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/3",
+          "date": "3/3",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "11/20",
+          "date": "2/19",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/10",
+          "date": "3/10",
           "week": "(日)"
         },
         "deadline": {
-          "date": "12/10",
+          "date": "3/10",
           "week": "(日)"
         }
       },
@@ -48,12 +48,12 @@
             "name": "森 暁郎",
             "lecturer": "akio_mori",
             "week01": {
-              "date": "10/24",
+              "date": "1/23",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "11/28",
+              "date": "2/27",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -61,7 +61,7 @@
         ]
       }
     },
-    "acceptingUntil": "2023-10-08T23:59:59+09:00"
+    "acceptingUntil": "2024-01-07T23:59:59+09:00"
   },
   "nct": {
     "schedule": {
