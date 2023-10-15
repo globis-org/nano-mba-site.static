@@ -208,43 +208,43 @@
   },
   "nmk": {
     "schedule": {
-      "year": "2023",
-      "month": "10",
+      "year": "2024",
+      "month": "1",
       "course": {
         "startAt": {
-          "date": "10/30",
+          "date": "2/5",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/10",
+          "date": "3/17",
           "week": "(日)"
         },
         "deadline": {
-          "date": "12/24",
+          "date": "3/31",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "11/6",
+          "date": "2/12",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/10",
+          "date": "3/17",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "11/27",
+          "date": "3/4",
           "week": "(月)"
         },
         "endAt": {
-          "date": "12/17",
+          "date": "3/24",
           "week": "(日)"
         },
         "deadline": {
-          "date": "12/17",
+          "date": "3/24",
           "week": "(日)"
         }
       },
@@ -255,12 +255,12 @@
             "name": "渡邉 由美",
             "lecturer": "yumi_watanabe",
             "week01": {
-              "date": "10/30",
-              "week": "(月)",
+              "date": "2/6",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "12/5",
+              "date": "3/12",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -268,7 +268,7 @@
         ]
       }
     },
-    "acceptingUntil": "2023-10-15T23:59:59+09:00"
+    "acceptingUntil": "2024-01-21T23:59:59+09:00"
   },
   "nst": {
     "schedule": {
