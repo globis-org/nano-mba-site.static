@@ -2,42 +2,42 @@
   "nac": {
     "schedule": {
       "year": "2024",
-      "month": "1",
+      "month": "4",
       "course": {
         "startAt": {
-          "date": "1/22",
+          "date": "5/6",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/3",
+          "date": "6/16",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/17",
+          "date": "6/30",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "1/29",
+          "date": "5/13",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/3",
+          "date": "6/16",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "2/19",
+          "date": "6/3",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/10",
+          "date": "6/23",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/10",
+          "date": "6/23",
           "week": "(日)"
         }
       },
@@ -48,12 +48,12 @@
             "name": "森 暁郎",
             "lecturer": "akio_mori",
             "week01": {
-              "date": "1/23",
+              "date": "5/7",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "2/27",
+              "date": "6/11",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -61,7 +61,7 @@
         ]
       }
     },
-    "acceptingUntil": "2024-01-07T23:59:59+09:00"
+    "acceptingUntil": "2024-04-21T23:59:59+09:00"
   },
   "nct": {
     "schedule": {
@@ -145,42 +145,42 @@
   "nlc": {
     "schedule": {
       "year": "2024",
-      "month": "1",
+      "month": "4",
       "course": {
         "startAt": {
-          "date": "1/8",
+          "date": "4/1",
           "week": "(月)"
         },
         "endAt": {
-          "date": "2/18",
+          "date": "5/12",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/3",
+          "date": "5/26",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "1/15",
+          "date": "4/8",
           "week": "(月)"
         },
         "endAt": {
-          "date": "2/18",
+          "date": "5/12",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "2/5",
+          "date": "4/29",
           "week": "(月)"
         },
         "endAt": {
-          "date": "2/25",
+          "date": "5/19",
           "week": "(日)"
         },
         "deadline": {
-          "date": "2/25",
+          "date": "5/19",
           "week": "(日)"
         }
       },
@@ -191,12 +191,12 @@
             "name": "中村 直太",
             "lecturer": "Naota_Nakamura",
             "week01": {
-              "date": "1/9",
-              "week": "(火)",
+              "date": "4/1",
+              "week": "(月)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "2/13",
+              "date": "5/7",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -204,7 +204,7 @@
         ]
       }
     },
-    "acceptingUntil": "2023-12-24T23:59:59+09:00"
+    "acceptingUntil": "2024-03-17T23:59:59+09:00"
   },
   "nmk": {
     "schedule": {
@@ -273,42 +273,42 @@
   "nst": {
     "schedule": {
       "year": "2024",
-      "month": "1",
+      "month": "4",
       "course": {
         "startAt": {
-          "date": "1/15",
+          "date": "4/8",
           "week": "(月)"
         },
         "endAt": {
-          "date": "2/25",
+          "date": "5/19",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/10",
+          "date": "6/2",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "1/22",
+          "date": "4/15",
           "week": "(月)"
         },
         "endAt": {
-          "date": "2/25",
+          "date": "5/19",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "2/12",
+          "date": "5/6",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/3",
+          "date": "5/26",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/3",
+          "date": "5/26",
           "week": "(日)"
         }
       },
@@ -319,19 +319,19 @@
             "name": "井上 智映子",
             "lecturer": "chieko_inoue",
             "week01": {
-              "date": "1/17",
-              "week": "(水)",
+              "date": "4/9",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "2/21",
-              "week": "(水)",
+              "date": "5/14",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             }
           }
         ]
       }
     },
-    "acceptingUntil": "2023-12-31T23:59:59+09:00"
+    "acceptingUntil": "2024-03-24T23:59:59+09:00"
   }
 }
