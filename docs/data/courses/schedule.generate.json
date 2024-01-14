@@ -66,42 +66,42 @@
   "nct": {
     "schedule": {
       "year": "2024",
-      "month": "1",
+      "month": "4",
       "course": {
         "startAt": {
-          "date": "1/29",
+          "date": "4/22",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/10",
+          "date": "6/2",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/24",
+          "date": "6/16",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "2/5",
+          "date": "4/29",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/10",
+          "date": "6/2",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "2/26",
+          "date": "5/20",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/17",
+          "date": "6/9",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/17",
+          "date": "6/9",
           "week": "(日)"
         }
       },
@@ -112,12 +112,12 @@
             "name": "滝 謙介",
             "lecturer": "Kensuke_Taki",
             "week01": {
-              "date": "1/30",
+              "date": "4/23",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "3/5",
+              "date": "5/28",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -127,12 +127,12 @@
             "name": "岩越 祥晃",
             "lecturer": "Yoshiaki_Iwakoshi",
             "week01": {
-              "date": "1/30",
+              "date": "4/23",
               "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "3/5",
+              "date": "5/28",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -140,7 +140,7 @@
         ]
       }
     },
-    "acceptingUntil": "2024-01-14T23:59:59+09:00"
+    "acceptingUntil": "2024-04-07T23:59:59+09:00"
   },
   "nlc": {
     "schedule": {
