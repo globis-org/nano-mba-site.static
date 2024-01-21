@@ -209,66 +209,66 @@
   "nmk": {
     "schedule": {
       "year": "2024",
-      "month": "1",
+      "month": "4",
       "course": {
         "startAt": {
-          "date": "2/5",
+          "date": "4/15",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/17",
+          "date": "5/26",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/31",
+          "date": "6/9",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "2/12",
+          "date": "4/22",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/17",
+          "date": "5/26",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "3/4",
+          "date": "5/13",
           "week": "(月)"
         },
         "endAt": {
-          "date": "3/24",
+          "date": "6/2",
           "week": "(日)"
         },
         "deadline": {
-          "date": "3/24",
+          "date": "6/2",
           "week": "(日)"
         }
       },
       "liveSession": {
         "classes": [
           {
-            "lecturerUserId": "1032",
-            "name": "渡邉 由美",
-            "lecturer": "yumi_watanabe",
+            "lecturerUserId": "200",
+            "name": "下道 陽平",
+            "lecturer": "Yohei_Shimomichi",
             "week01": {
-              "date": "2/6",
-              "week": "(火)",
+              "date": "4/15",
+              "week": "(月)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "3/12",
-              "week": "(火)",
+              "date": "5/20",
+              "week": "(月)",
               "range": "19:30 - 21:00"
             }
           }
         ]
       }
     },
-    "acceptingUntil": "2024-01-21T23:59:59+09:00"
+    "acceptingUntil": "2024-03-31T23:59:59+09:00"
   },
   "nst": {
     "schedule": {
