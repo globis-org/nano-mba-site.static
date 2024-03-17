@@ -145,58 +145,58 @@
   "nlc": {
     "schedule": {
       "year": "2024",
-      "month": "4",
+      "month": "7",
       "course": {
         "startAt": {
-          "date": "4/1",
+          "date": "7/1",
           "week": "(月)"
         },
         "endAt": {
-          "date": "5/12",
+          "date": "8/11",
           "week": "(日)"
         },
         "deadline": {
-          "date": "5/26",
+          "date": "8/25",
           "week": "(日)"
         }
       },
       "groupWork": {
         "startAt": {
-          "date": "4/8",
+          "date": "7/8",
           "week": "(月)"
         },
         "endAt": {
-          "date": "5/12",
+          "date": "8/11",
           "week": "(日)"
         }
       },
       "integratedStudy": {
         "startAt": {
-          "date": "4/29",
+          "date": "7/29",
           "week": "(月)"
         },
         "endAt": {
-          "date": "5/19",
+          "date": "8/18",
           "week": "(日)"
         },
         "deadline": {
-          "date": "5/19",
+          "date": "8/18",
           "week": "(日)"
         }
       },
       "liveSession": {
         "classes": [
           {
-            "lecturerUserId": "197",
-            "name": "中村 直太",
-            "lecturer": "Naota_Nakamura",
+            "lecturerUserId": "222",
+            "name": "澤田 茉莉",
+            "lecturer": "Mari_Sawada",
             "week01": {
-              "date": "4/1",
-              "week": "(月)",
+              "date": "7/2",
+              "week": "(火)",
               "range": "19:30 - 21:00"
             },
             "week06": {
-              "date": "5/7",
+              "date": "8/6",
               "week": "(火)",
               "range": "19:30 - 21:00"
             }
@@ -204,7 +204,7 @@
         ]
       }
     },
-    "acceptingUntil": "2024-03-17T23:59:59+09:00"
+    "acceptingUntil": "2024-06-16T23:59:59+09:00"
   },
   "nmk": {
     "schedule": {
